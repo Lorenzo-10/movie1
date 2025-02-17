@@ -3,8 +3,7 @@
     padding: 0px;
     font-family: poppins;
     box-sizing: border-box;
-}
-body{
+}body{
     margin: 0px;
     padding: 0px;
     font-family: poppins;
@@ -37,6 +36,10 @@ body{
     max-width: 1400px;
     margin: auto;
     width: 100%;
+}
+.menu-icon{
+    position: fixed;
+    left: 25px;
 }
 .navigation .menu-icon{
     cursor: pointer;
@@ -766,7 +769,7 @@ footer .logo{
     width: 100%;
 }
 .screen-s-container img{
-    width: 100%;
+    width: 50%;
     height: 100%;
     object-fit: cover;
     object-position: center;
@@ -777,8 +780,8 @@ footer .logo{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-        margin: 50px 0px;
-    }
+    margin: 50px 0px;
+}
 .download-container{
     max-width: 1000px;
     width: 100%;

@@ -1,230 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--==Title=================================-->
-    <title>GLADIATOR - MDH</title>
+  <!--==Title=================================-->
+  <title>GLADIATOR - MDH</title>
 
-    <!--Styleshee(CSS)==========================-->
-    <link rel="stylesheet" href="css/stylesheet.css">
+  <!--Styleshee(CSS)==========================-->
+  <link rel="stylesheet" href="css/stylesheet.css">
 
-    <!--==Fav icon==============================-->
-    <link rel="shortcut icon" href="images/fav-icon.png">
-    <!--==Import-poppins-font===============-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <!--==Fav icon==============================-->
+  <link rel="shortcut icon" href="images/fav-icon.png">
+  <!--==Import-poppins-font===============-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
 
-<!--==Import-Monoton-Font============-->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Monoton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <!--==Import-Monoton-Font============-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Monoton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
 
-<!--===Using-Font-Awesome====================  -->
-<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+  <!--===Using-Font-Awesome====================  -->
+  <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-      <!--==Scroll-Progress-bar===========  -->
-      <div class="progress">
-        <span id="progress-value"></span>
+  <!--==Scroll-Progress-bar===========  -->
+  <div class="progress">
+    <span id="progress-value"></span>
+  </div>
+  <!--==Navigation============================================-->
+  <nav class="navigation">
+
+    <!-- menu-btn-------->
+    <input type="checkbox" class="menu-btn" id="menu-btn">
+    <label for="menu-btn" class="menu-icon">
+      <span class="nav-icon"></span>
+    </label>
+
+    <!-- Logo -->
+    <a href="index.html" class="logo">
+      Movies<span>.hd</span>
+    </a>
+
+    <!--menu ------->
+    <ul class="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#">Genre</a></li>
+      <li><a href="#">TV Shows</a></li>
+      <li><a href="#">Movies</a></li>
+      <li><a href="#">content</a></li>
+    </ul>
+
+  </nav>
+  <!--nav-end  -->
+
+  <!--==Movie-Banner======-->
+  <!-- Play Movie Container -->
+  <div class="play-container container">
+    <!-- Play Image-->
+    <img src="play-page/play-background.jpg" alt="" class="play-img">
+    <!-- Play Text-->
+    <div class="play-text">
+      <h2>GLADIATOR</h2>
+      <!-- Ratings-->
+      <div class="rating">
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star-half'></i>
+      </div>
+      <!-- Tags -->
+      <div class="tags">
+        <span>Action</span>
+        <span>Adventure</span>
+        <span>4K</span>
+      </div>
+      <!-- Trailer Button-->
+      <a href="#" class="watch-btn">
+        <i class='bx bx-right-arrow'></i>
+        <span>Watch The Trailer</span>
+      </a>
     </div>
-    <!--==Navigation============================================-->
-    <nav class="navigation">
+    <!-- Play Btn-->
+    <i class='bx bx-right-arrow play-movie'></i>
+    <!-- Video Container -->
+    <div class="video-container">
+      <!-- Video Box -->
+      <div class="video-box">
+        <video id="myvideo" src="play-page/Jumanji.mp4" controls></video>
+        <!-- Close Video Icon -->
+        <i class='bx bx-x close video'></i>
+      </div>
+    </div>
+  </div>
+  <!-- About-->
+  <div class="about-movie container">
+    <h2>GLADIATOR</h2>
+    <p>is an epic historical drama about a betrayed Roman general, Maximus, who becomes a gladiator to seek revenge against the corrupt emperor who murdered his family..</p>
+    <!-- Movie Cast -->
+    <h2 class="cast-heading">Movie screensot</h2>
+    <div class="cast">
+      <div class="cast-box">
+        <img src="play-page/cast1.jpg" alt="" class="cast-img">
+        <span class="cast-title">Dwayne Johnson</span>
+      </div>
+      <div class="cast-box">
+        <img src="play-page/cast2.jpg" alt="" class="cast-img">
+        <span class="cast-title">Karen Gillan</span>
+      </div>
+      <div class="cast-box">
+        <img src="play-page/cast3.jpg" alt="" class="cast-img">
+        <span class="cast-title">Kevin Hart</span>
+      </div>
+      <div class="cast-box">
+        <img src="play-page/cast4.jpg" alt="" class="cast-img">
+        <span class="cast-title">Jack Black</span>
+      </div>
+      <div class="cast-box">
+        <img src="play-page/cast5.jpg" alt="" class="cast-img">
+        <span class="cast-title">Nick Jonas</span>
+      </div>
+      <div class="cast-box">
+        <img src="play-page/cast6.jpg" alt="" class="cast-img">
+        <span class="cast-title">Madison Iseman</span>
+      </div>
+    </div>
+  </div>
+  <!-- Download -->
+  <div class="download">
+    <h2 class="download-title">Download Movie</h2>
+    <div class="download-links">
+      <a href="play-page/Jumanji.mp4" download>480p</a>
+      <a href="play-page/Jumanji.mp4" download>720p</a>
+      <a href="play-page/Jumanji.mp4" download>1080p</a>
+    </div>
+  </div>
+  <!-- copyright -->
+  <span class="copyright">
+    &copy;Copyright 2025 - Movie
+  </span>
+  </footer>
 
-        <!-- menu-btn-------->
-         <input type="checkbox" class="menu-btn" id="menu-btn">
-         <label for="menu-btn" class="menu-icon">
-            <span class="nav-icon"></span>
-         </label>
+  <!--jquery====================-->
+  <script src="js/jquery.js"></script>
+  <script>
+    /*==scroll-progress-bar==================*/
+    let scrollPrecentage = () => {
+      let scrollProgress = document.getElementById("progress");
+      let progressValue = document.getElementById("progress-value");
+      let pos = document.documentElement.scrollTop;
+      let calcHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      let scrollValue = Math.round(pos * 100 / calcHeight);
+      scrollProgress.style.background = `conic-gradient(#e70634 ${scrollValue}%, #2b2f38 ${scrollValue}%)`;
+    }
+    window.onscroll = scrollPrecentage;
+    window.onload = scrollPrecentage;
 
-         <!-- Logo -->
-          <a href="index.html" class="logo">
-            Movies<span>.hd</span>
-          </a>
+    /*--menu-btn-fixed-when-scroll==========*/
+    $(window).scroll(function () {
+      if ($(document).scrollTop() > 20) {
+        $('.navigation').addClass('fix-icon');
+      }
+      else {
+        $('.navigation').removeClass('fix-icon');
+      }
+    });
 
-         <!--menu ------->
-         <ul class="menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#">Genre</a></li>
-            <li><a href="#">TV Shows</a></li>
-            <li><a href="#">Movies</a></li>
-            <li><a href="#">content</a></li>
-         </ul>
-
-         <!-- Search-box -->
-          <form action="" class="Search-box">
-            <!-- input -->
-             <input type="text" name="search" placeholder="Search Movie" class="search-input" required/>
-             <!-- btn -->
-              <button type="submit">
-                <i class="fas fa-search"></i>
-            </button>
-          </form>
-    </nav>
-    <!--nav-end  -->
-   
-    <!--==Movie-Banner======-->
-    <section class="Movie-Banner">
-        <!--==img=====================-->
-        <div class="m-banner-img">
-           <img src="images/gladiator.jpg" alt=""> 
-        </div>
-
-        <!--content==================  -->
-        <div class="banner-container">
-            <!-- title-container************** -->
-             <div class="title-container">
-              <!-- title-top=================-->
-               <div class="title-top">
-            <!-- title -->
-             <div class="movie-tile">
-                <h1>GLADIATOR</h1>
-             </div>
-             <!-- more-about-movie -->
-              <div class="more-about-movie">
-                <span class="quality">Full HD</span>
-                <div class="rating">
-                  8.2 <img src="images/imdbicon.png" alt="imdb">
-                </div>
-                <span>28 August 2017</span>
-                <span>87min</span>
-              </div>
-              <!-- language -->
-               <div class="language">
-                <span>English</span>
-               </div>
-               </div>
-
-               <!-- Title-bottom===================-->
-                <div class="title-bottom">
-                  <!-- category -->
-                   <div class="category">
-                    <strong>Category</strong><br>
-                    <a href="#">Horror</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
-                   </div>
-                   <!-- trailer-btn -->
-                    <a href="movie/GLADIATOR.mp4" class="watch-btn">Watch Trailer</a>
-                </div>
-             </div>
-             <!-- play-btn*********************-->
-              <div class="play-btn-container">
-                <div class="play-btn">
-                  <a href="javascript:void">
-                    <i class="fas fa-play"></i>
-                  </a>
-                </div>
-              </div>
-
-              <!-- Video/full-movie********************* -->
-               <div id="play" class="play">
-                <!-- close-btn -->
-                 <a href="javascript:void" class="close-movie">
-                  <i class="fas fa-times"></i>
-                 </a>
-                <!-- movie -->
-                 <div class="play-movie">
-                  <video id="m-video" controls>
-                    <source src="movie/GLADIATOR.mp4" type="video/mp4">
-                  </video>
-                 </div>
-               </div>
-        </div>
-    </section>
-    <!-- Banner-end -->
-     <!-- details============================ -->
-      <section class="movie-details">
-        <strong>GLADIATOR</strong>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ab tenetur neque consequatur laborum minus similique accusantium quis iste excepturi quos quia dolorum molestias consequuntur, aspernatur a, fugiat, possimus sit!</p>
-      </section>
-      <!--==ScreenShots============================-->
-      <section class="ScreenShots">
-        <strong>ScreenShots</strong>
-        <!-- screenshots-container -->
-         <div class="screen-s-container">
-          <img src="images/gladiator.jpg" alt="">
-          <img src="images/gladiator.jpg" alt="">
-          <img src="images/gladiator.jpg" alt="">
-         </div>
-      </section>
-      <!-- Download -->
-       <section class="doenload-container">
-        <!-- container -->
-         <div class="download-container">
-          <!-- box -->
-           <div class="download-box">
-            <span><i class="fas fa-server"></i> Server 1</span>
-            <span>480p</span>
-            <a href="movie/GLADIATOR.mp4">Download</a>
-           </div>
-            <!-- box -->
-            <div class="download-box">
-              <span><i class="fas fa-server"></i> Server 2</span>
-              <span>720p</span>
-              <a href="#">Download</a>
-             </div>
-              <!-- box -->
-           <div class="download-box">
-            <span><i class="fas fa-server"></i> Server 3</span>
-            <span>1080p</span>
-            <a href="#">Download</a>
-           </div>
-         </div>
-       </section>
-        <!--==footer====================-->
-     <footer>
-      <!-- footer-logo -->
-       <a href="index.html" class="logo">
-         Movies<span>hd</span>
-       </a>
-       <!-- copyright -->
-        <span class="copyright">
-         &copy;Copyright 2025 - Movie
-        </span>
-      </footer>
-
-     <!--jquery====================-->
-     <script src="js/jquery.js"></script>
-   <script>
-     /*==scroll-progress-bar==================*/
-     let scrollPrecentage = () =>{
-         let scrollProgress = document.getElementById("progress");
-         let progressValue = document.getElementById("progress-value");
-         let pos = document.documentElement.scrollTop;
-         let calcHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-         let scrollValue = Math.round(pos * 100 / calcHeight);
-         scrollProgress.style.background = `conic-gradient(#e70634 ${scrollValue}%, #2b2f38 ${scrollValue}%)`;
-     }
-     window.onscroll = scrollPrecentage;
-     window.onload = scrollPrecentage;
-    
-     /*--menu-btn-fixed-when-scroll==========*/
-     $(window).scroll(function(){
-         if($(document).scrollTop() > 20){
-             $('.navigation').addClass('fix-icon');
-         }
-         else{
-             $('.navigation').removeClass('fix-icon');
-         }
-     });
-
-     /*==popup-open=============================*/
-     $(document).on('click','.play-btn a',function(){
+    /*==popup-open=============================*/
+    $(document).on('click', '.play-btn a', function () {
       $('.play').addClass('active-popup');
-     });
-      /*==popup-Close=============================*/
-      $(document).on('click','.close-movie',function(){
+    });
+    /*==popup-Close=============================*/
+    $(document).on('click', '.close-movie', function () {
       $('.play').removeClass('active-popup');
-     });
-     /*==auto-play-when-popup-open==================*/
-     $('.play-btn a').click(function(){
+    });
+    /*==auto-play-when-popup-open==================*/
+    $('.play-btn a').click(function () {
       $('#m-video')[0].play();
-     });
-     /*==Close-video-when-popup-close========================*/
-     $('.close-movie').click(function(){
+    });
+    /*==Close-video-when-popup-close========================*/
+    $('.close-movie').click(function () {
       $('#m-video')[0].pause();
-     });
-   </script>
-</body>    
+    });
+  </script>
+</body>
+
 </html>
